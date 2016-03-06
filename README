@@ -1,0 +1,15 @@
+This is an Arduino Sketch that controls a bunch LEDs attached to a dress. The
+LEDs came from a NeoPixel strip that we then cut up and soldered into a string.
+The LEDs were then sewn into specific places on a friend's dress.
+
+My friend was attending a ball that had the theme of stars and constellations.
+She wanted to make her dress light up with RGB LEDs to act as stars. Among the
+28 stars, seven of them formed the Big Dipper constellation on the front of her
+dress. She wanted the Big Dipper to act differently and stand out.
+
+21 of the stars are lightly magenta in color and twinkle randomly. The seven
+stars that form the Big Dipper scroll through a gradient of three colors
+continuously. Rather than calculate the values of each step in the gradient as
+the program runs, a lookup table is used instead.
+
+The Sketch requires the NeoPixel Arduino library from Adafruit.
